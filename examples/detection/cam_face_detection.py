@@ -1,7 +1,11 @@
+import sys
+from os.path import dirname, abspath
+
 import cv2
 from dotenv import load_dotenv
 
-load_dotenv('../../.env')
+sys.path.append(dirname(dirname(dirname(abspath(__file__)))))
+load_dotenv('.env')
 
 from konvolution import SDK
 
