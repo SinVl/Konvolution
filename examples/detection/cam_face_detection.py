@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv('../../.env')
 
-from platform_sdk import SDK
+from konvolution import SDK
 
 
 if __name__ == "__main__":
